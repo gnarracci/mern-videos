@@ -1,7 +1,6 @@
-import express from "express";
+import app from "./app";
+import "./database";
 
-const app = express();
-
-app.listen(4000, () => {
-  console.log("Server on port 4000!");
+app.listen(app.get("port"), () => {
+  console.log("Server on port", app.get("port"));
 });
