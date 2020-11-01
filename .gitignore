@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,linux,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,react
+# Created by https://www.toptal.com/developers/gitignore/api/node,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux
 
 ### Linux ###
 *~
@@ -127,17 +127,4 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
-
-node_modules
-
-*.sublime*
-
-psd
-thumb
-sketch
-
-# End of https://www.toptal.com/developers/gitignore/api/node,linux,react
+# End of https://www.toptal.com/developers/gitignore/api/node,linux
