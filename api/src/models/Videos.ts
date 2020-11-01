@@ -7,7 +7,7 @@ const videoSchema = new Schema(
       require: true,
       trim: true,
     },
-    decription: {
+    description: {
       type: String,
       trim: true,
     },
@@ -15,6 +15,7 @@ const videoSchema = new Schema(
       type: String,
       require: true,
       trim: true,
+      unique: true,
     },
   },
   {

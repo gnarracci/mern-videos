@@ -1,3 +1,32 @@
 @url = http://localhost:4000/api
 
+
+### Get Videos
 GET {{url}}/videos
+
+### Get Video
+GET {{url}}/videos/5f9daccca7b81c28eca7f51c
+
+### Save Video
+POST {{url}}/videos
+Content-Type: application/json
+
+{
+  "url": "https://www.youtube.com/watch?v=8McBdxm3vL4&t=900s",
+  "title": "Plan A inmigracion",
+  "description": "Emigrar a Canadá a través de Nova Scotia | EMIGRA A CANADÁ"
+}
+
+### Delete Videos
+DELETE {{url}}/videos/5f9da8709a98fe232831f7a3
+
+### Update Videos
+PUT {{url}}/videos/5f9e00309ed5f2116a9c08dc
+Content-Type: application/json
+
+{
+  "url": "https://www.youtube.com/watch?v=8_1vRk0VwG8",
+  "title": "Diego Saul Reina Español",
+  "description": "Cuánto gana mi ayudante de construcción en Canada, FT/planeta Juan."
+}
+
